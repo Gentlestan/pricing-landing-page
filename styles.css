@@ -38,12 +38,12 @@ ul > li {
   padding-left: 1rem;
   list-style: none;
   font-size: 1rem;
-  color: rgba(33, 37, 41, 0.8);
 }
 ul,
 li,
 a {
   text-decoration: none;
+  color: rgba(33, 37, 41, 0.8);
 }
 main {
   margin-top: 2rem;
@@ -204,6 +204,10 @@ button {
 .item > h2 {
   color: rgba(33, 37, 41, 0.6);
   font-size: 1.3rem;
+}
+.item > p {
+  margin-bottom: 0.5rem;
+  color: rgba(33, 37, 41, 0.6);
 }
 @media (min-width: 760px) {
   body {
